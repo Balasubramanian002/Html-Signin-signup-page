@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css"/>
+</head>
+<body>
+     <div class="container">
+        <img src="icon.png"/>
+          <div class="head">
+            <h2 style="text-decoration: underline;">Sign up</h2>
+          </div>
+          <div class="field">
+               <input type="text" placeholder="Name" required>
+              <input type="text" placeholder="Email" required>
+              <input type="tel" placeholder="Mobile Number" required>
+              <select>
+                <option><span>Select</span></option>
+                 <option Value="student">Student</option>
+                 <option value="non-student">Non-Student</option>
+              </select>
+              <input type="text" placeholder="Password" required>
+             
+          </div>
+          <div class="terms">
+            <input type="checkbox">&emsp;
+             <h6>I have agreed to terms and conditions</h6>
+          </div>
+          <button onclick="fun()" class="b1">CREATE ACCOUNT</button>
+          <BR>
+            <BR>
+                <h5>Already have an account <a href="a.html">Sign in</a></h5>
+     </div>
+     <script>
+        document.addEventListener("contextmenu", (event) => {
+           event.preventDefault();
+        });
+     </script>
+</body>
+</html>
